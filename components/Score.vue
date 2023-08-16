@@ -1,6 +1,6 @@
 <template>
   <div
-    class="table-container flex flex-col justify-center items-center mt-12 "
+    class="table-container flex flex-col justify-center items-center mt-12"
     v-if="scores?.result?.length > 0"
   >
     <h1 class="text-3xl mb-5">Games History</h1>
@@ -41,9 +41,7 @@
     class="spinner-container flex flex-col justify-center items-center mt-12"
     v-else
   >
-    <a-space>
-      <a-spin size="large" />
-    </a-space>
+    <Spinner />
   </div>
 </template>
 

@@ -23,9 +23,9 @@ export default defineNuxtConfig({
   pinia: {
     autoImports: ["defineStore", ["defineStore", "definePiniaStore"]],
   },
-  vue: {
-    compilerOptions: {
-      isCustomElement: (tag) => ["a-spin","a-space"].includes(tag),
-    },
-  },
+  // vue: {
+  //   compilerOptions: {
+  //     isCustomElement: (tag) => ["a-spin","a-space"].includes(tag),
+  //   },
+  // },
 });
